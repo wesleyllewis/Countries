@@ -25,7 +25,7 @@ public class Countries {
             throw new Exception("One Letter Only Please");
         } else {
             List countriesToFile = countriesMap.get(beginningOfCountry);
-            writeFile(beginningOfCountry + "_countries.txt", countriesToFile.toString());
+            writeFile(beginningOfCountry + "_countries.json", countriesToFile.toString());
 
         }
     }
